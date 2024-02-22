@@ -1,0 +1,386 @@
+.Box1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1B0522;
+    background-image: url("../Images/Ellipse\ 10\ \(1\).png");
+}
+
+.images{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_vector{
+    margin-top: 200px;
+}
+
+.img_vector1{
+    margin-top: -130px;
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1B0522;
+}
+
+.navIn{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav_text2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.accordion1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-chevron-down{
+    color: white;
+    font-size: 12px;
+}
+
+.Navbar{
+    width: 70%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bird_text{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: white;
+}
+
+.Create{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.create_ac{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.createBtn{
+    width: 140px;
+    height: 46px;
+    border: 1px solid #FF6A00;
+    border-radius: 500px;
+    background: transparent;
+    transition: .3s ease-out;
+}
+
+.cr_btn_t{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;  
+    text-decoration: none;
+}
+
+.createBtn:hover{
+    background-color: #FF6A00;
+}
+
+
+.Create_main{
+    position: absolute;
+    width: 100%;
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+}
+
+.Cr_account{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cr_acc{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.acc_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6E447B;
+    margin-top: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.Form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cr_input{
+    width: 380px;
+    height: 70px;
+    border-radius: 500px;
+    background-color: #42204E;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inpCr{
+    width: 70%;
+    background: transparent;
+    border: none;
+}
+
+.fa-user{
+    font-size: 20px;
+    color: #8B5D9A;
+}
+
+.Data{
+    width: 60%;
+    margin-top: 20px;
+}
+
+.data{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.data_text{
+    font-size: 14px;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Day{
+    width: 100px;
+    height: 70px;
+    background-color: #42204E;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day{
+    width: 80%;
+    background: transparent;
+    border: none;
+
+}
+
+.Month{
+    width: 170px;
+    height: 70px;
+    background-color: #42204E;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.month{
+    width: 80%;
+    background: transparent;
+    border: none;
+}
+
+.Year{
+    width: 100px;
+    height: 70px;
+    background-color: #42204E;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year{
+    width: 80%;
+    background: transparent;
+    border: none;
+}
+
+.fa-chevron-down{
+    color: #8B5D9A;
+    margin-inline-end: 10px;
+}
+
+.gender{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.boy{
+    width: 50%;
+    height: 70px;
+    border-radius: 500px;
+    background: linear-gradient(to right, #0575E6, #021B79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-out;
+}
+
+.boy:hover{
+    background: transparent;
+}
+
+.girl{
+    background: transparent;
+    border: 1px solid #EC008C;
+}
+
+.girl:hover{
+    background-color: #FC6767;
+}
+
+.parol{
+    margin-top: 20px;
+}
+
+.Email{
+    gap: 20px;
+}
+
+.fa-envelope{
+    font-size: 20px;
+    color: #8B5D9A;
+}
+
+.block{
+    font-size: 20px;
+    color: #8B5D9A;
+}
+
+.Password{
+    margin-top: 20px;
+}
+
+.btnCreate{
+    width: 380px;
+    height: 70px;
+    border-radius: 500px;
+    border: none;
+    margin-top: 20px;
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+}
+
+.btnCreate:hover{
+    background: transparent;
+}
+
+.foot1{
+    width: 60%;
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 125px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .images{
+        display: none;
+    }
+
+    *{
+        position: static;
+    }
+
+    .Create_main{
+        position: static;
+    }
+}

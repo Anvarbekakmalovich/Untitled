@@ -1,0 +1,925 @@
+.Box{
+    width: 100%;
+    height: auto;
+    background-color: #1B0522;
+    background-image: url("../Images/Ellipse\ 10.png");
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navIn{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav_text2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.accordion1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-chevron-down{
+    color: white;
+    font-size: 12px;
+}
+
+
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: #2D1436;
+    display: flex;
+    justify-content: center;
+}
+
+.nav2{
+    width: 70%;
+    display: flex;
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.location{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.group1{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.bird_text{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: white;
+}
+
+.menuA{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    transition: .3s ease-out;
+}
+
+.aBox{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-out;
+}
+
+.menuA:hover{
+    color: #FE6703;
+}
+
+.aBox:hover{
+    border-bottom: 4px solid #FE6703;
+}
+
+.i1{
+    color: #925FA4;
+    
+}
+
+.location_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.restangle14{
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    background-color: #FF6A00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    border-radius: 20px;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_t{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.Main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main2{
+    width: 75%;
+    margin-top: 20px;
+}
+
+.tops{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.h{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    color: white;
+}
+
+.top_cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.topCard{
+    width: 20%;
+    height: 350px;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url("../Images/photo\ \(1\).png");
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.card2{
+    background-image: url("../Images/photo\ \(2\).png");
+    display: flex;
+    flex-direction: column;
+}
+
+.card3{
+    background-image: url("../Images/photo\ \(3\).png");
+}
+
+.card4{
+    background-image: url("../Images/photo\ \(4\).png");
+}
+
+.card5{
+    background-image: url("../Images/photo\ \(5\).png");
+}
+
+.card_texts{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    margin-inline-start: 20px;
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.text1{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text2{
+    width: 22%;
+    display: flex;
+    justify-content: flex-end;
+    transition: .3s ease-out;
+}
+
+.Ellipse4{
+    width: 10px;
+    height: 10px;
+    background-color: #33E159;
+    border-radius: 50%;
+    display: none;
+}
+
+
+.text2:hover .Ellipse4{
+    display: flex;
+}
+
+
+.card_texts2{
+    display: flex;
+    align-items: flex-start;
+    justify-self: start;
+    gap: 10px;
+    margin-inline-start: 20px;
+}
+
+.rus_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: white;
+}
+
+.card_button{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    background: linear-gradient(to right,#EE0979, #FF6A00);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_button:hover{
+    background: transparent;
+}
+
+.btn_t{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card6{
+    background-image: url("../Images/photo\ \(6\).png");
+}
+
+.card7{
+    background-image: url("../Images/photo\ \(7\).png");
+}
+
+.card10{
+    background-image: url("../Images/photo\ \(8\).png");
+}
+
+.main3{
+    margin-top: 50px;
+}
+
+
+.card11{
+    background-image: url("../Images/photo\ \(9\).png");
+}
+
+.card12{
+    background-image: url("../Images/photo\ \(10\).png");
+}
+
+.card13{
+    background-image: url("../Images/photo\ \(11\).png");
+}
+
+.card14{
+    background-image: url("../Images/photo\ \(12\).png");
+}
+
+.card15{
+    background-image: url("../Images/photo\ \(13\).png");
+}
+
+
+.footer{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 50px;
+}
+
+.links1{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.links2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links3{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link3_lang{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.links4{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link4_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 576px) {
+    .birdLogo{
+        width: 40px;
+        height: 40px;
+    }
+    .birt_text{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+    .img_t{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 60px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+    .top_cards{
+        display: block;
+    }
+    .topCard{
+        margin-top: 20px;
+        width: 220px;
+    }
+    .footer{
+        display: block;
+    }
+    .link100{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about{
+        font-size: 12px;
+    }
+    .links1{
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .birdLogo{
+        width: 40px;
+        height: 40px;
+    }
+    .birt_text{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+    .img_t{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+    .top_cards{
+        display: block;
+    }
+    .topCard{
+        margin-top: 20px;
+        width: 220px;
+    }
+    .footer{
+        display: block;
+    }
+    .link100{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about{
+        font-size: 12px;
+    }
+    .links1{
+        gap: 20px;
+    }
+    .top_cards{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 220px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .birdLogo{
+        width: 40px;
+        height: 40px;
+    }
+    .birt_text{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+    .img_t{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 95px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+    .top_cards{
+        display: block;
+    }
+    .topCard{
+        margin-top: 20px;
+        width: 220px;
+    }
+    .footer{
+        display: block;
+    }
+    .link100{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about{
+        font-size: 12px;
+    }
+    .links1{
+        gap: 20px;
+    }
+    .top_cards{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 220px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img_t{
+        display: flex;
+    }
+    .restangle14{
+        margin-left: 125px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .birdLogo{
+        width: 60px;
+        height: 60px;
+    }
+    .birt_text{
+        display: flex;
+    }
+    .menu{
+        display: flex;
+    }
+    .location{
+        display: flex;
+    }
+    .img_t{
+        display: flex;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 85px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        display: none;
+    }
+    .nav2{
+        width: 75%;
+        justify-content: space-between;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+    .top_cards{
+        display: block;
+    }
+    .topCard{
+        margin-top: 20px;
+        width: 220px;
+    }
+    .footer{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about{
+        font-size: 12px;
+    }
+    .links1{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .links2{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .links3{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .links4{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+    .top_cards{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 220px);
+    }
+}
+
+
+@media screen and (min-width: 1414px) {
+    .birdLogo{
+        width: 60px;
+        height: 60px;
+    }
+    .birt_text{
+        display: flex;
+    }
+    .menu{
+        display: flex;
+    }
+    .location{
+        display: flex;
+    }
+    .img_t{
+        display: flex;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i2{
+        display: none;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 105px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        display: none;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+    .top_cards{
+        display: block;
+    }
+    .topCard{
+        margin-top: 20px;
+        width: 220px;
+    }
+    .footer{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about{
+        font-size: 12px;
+    }
+    .links1{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .links2{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .links3{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .links4{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+    .top_cards{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(5, 220px);
+    }
+    .nav2{
+        width: 75%;
+        justify-content: space-between;
+    }
+}
