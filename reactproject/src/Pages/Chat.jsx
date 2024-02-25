@@ -1,230 +1,169 @@
 import React from "react";
-import united1 from "../Images/united-states-of-america.png";
-import loveBirds from "../Images/love-birds 1.png";
-import Ellipse3 from "../Images/Ellipse 3.png";
-import Restangle16 from "../Images/Rectangle 16.png";
-import Restangle17 from "../Images/Rectangle 17.png";
-import Restangle18 from "../Images/Rectangle 18.png";
-import Restangle19 from "../Images/Rectangle 19.png";
-import Vector5 from "../Images/Vector (5).png";
-import Def0 from "../Images/0Default.png";
+import Ellipse6 from "../Images/Ellipse 6.png";
+import Ellipse61 from "../Images/Ellipse 6 (1).png";
+import Ellipse62 from "../Images/Ellipse 6 (2).png";
+import Ellipse63 from "../Images/Ellipse 6 (3).png";
+import Ellipse9 from "../Images/Ellipse 9.png"
+import Send from "../Images/send 1.png"
 import "../CSS/Chat.css";
 
 function Chat() {
   return (
-    <div className="BOX">
-                <div className="CHAT">
+    <div className="BOX1">
+      <div className="BOX2">
         <div className="Chat">
-                <div className="Chat1"></div>
-                <div className="Chat2"></div>
-            </div>
-        </div>
-      <div className="nav">
-        <div className="navIn">
-          <div className="nav_text">Знакомства по всему миру</div>
-          <div className="accord">
-            <div className="accordion1">
-              <img className="USA" src={united1} alt="" />
-              <div className="nav_text2">Америка</div>
-              <i class="fa-solid fa-chevron-down"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="navbar">
-        <div className="nav2">
-          <div className="logo">
-            <img src={loveBirds} alt="" className="birdLogo" />
-            <p className="bird_text">Znakomstva.com</p>
-          </div>
-
-          <div className="menu">
-            <div className="aBox">
-              <a href="#" className="menuA">
-                Анкеты
-              </a>
-            </div>
-            <div className="aBox">
-              <a href="#" className="menuA">
-                Сообщения
-              </a>
-            </div>
-            <div className="aBox">
-              <a href="#" className="menuA">
-                Подписка
-              </a>
-            </div>
-          </div>
-
-          <div className="location">
-            <p className="location_text">Россия</p>
-            <i class="fa-solid fa-chevron-down i1"></i>
-          </div>
-
-          <div className="group1">
-            <div className="icons">
-              <i class="fa-solid fa-magnifying-glass i1"></i>
-              <i class="fa-solid fa-bell i1"></i>
-              <div className="restangle14">123</div>
-            </div>
-          </div>
-
-          <div className="user">
-            <div className="image">
-              <img src={Ellipse3} alt="" />
-            </div>
-            <p className="img_t">Иван Иванов</p>
-          </div>
-          <div className="menu_Group">
-            <i class="fa-solid fa-bars i2"></i>
-          </div>
-        </div>
-      </div>
-      <div className="Main5">
-        <div className="main5">
-          <div className="Ellipse3">
-            <i class="fa-solid fa-chevron-left i"></i>
-          </div>
-          <div className="CardsPr">
-            <div className="Card">
-              <div className="img_foto">
-                <div className="Icon_love">
-                  <div className="imgLove">
-                    <img src={Vector5} alt="" />
+          <div className="Chat1">
+            <div className="chat1_in">
+              <div className="chat_human">
+                <div className="humanIn">
+                  <div className="Inline">
+                    <img src={Ellipse6} alt="error" />
                   </div>
-                  <div className="iconLove">
-                    <div className="loveCircle">
-                      <i class="fa-solid fa-heart"></i>
+                  <div className="Inline1">
+                    <div className="online">
+                      <div className="chatName_online">
+                        <p className="chat_name">Марина</p>
+                      </div>
+                      <div className="chatOnl">
+                        <div className="onl_online"></div>
+                      </div>
                     </div>
+                    <p className="chat_text">Привет! Как дела?</p>
+                  </div>
+                  <div className="Inline2">
+                    <div className="message">1</div>
                   </div>
                 </div>
               </div>
-              <div className="pr_icon">
-                <img src={Restangle16} alt="" className="foto" />
-                <img src={Restangle17} alt="" className="foto" />
-                <img src={Restangle18} alt="" className="foto" />
-                <img src={Restangle19} alt="" className="foto" />
-              </div>
-            </div>
-            <div className="Texts">
-              <div className="user1">
-                <div className="username">
-                  <p className="name2">Виктор 22</p>
-                </div>
-                <div className="onlayn">
-                  <div className="onl"></div>
-                </div>
-              </div>
-              <div className="But">
-                <button className="card_button c_b">
-                  <p className="btn_t">Поприветствовать</p>
-                  <img src={Def0} alt="" />
-                </button>
-              </div>
-              <div className="InText5">
-                <div className="inT1">
-                  <div className="inTexts1">
-                    <div className="inT_11">
-                      <p className="komp">Ставка</p>
-                    </div>
-                    <div className="inT_12">
-                      <hr />
-                    </div>
-                    <div className="inT_13 inT_11">
-                      <p className="komp">15 654 руб</p>
-                    </div>
+              <div className="chat_human">
+                <div className="humanIn">
+                  <div className="Inline">
+                    <img src={Ellipse61} alt="error" />
                   </div>
-                  <div className="inTexts1">
-                    <div className="inT_11">
-                      <p className="komp sm">Рост</p>
+                  <div className="Inline1">
+                    <div className="online">
+                      <div className="chatName_online">
+                        <p className="chat_name">Алена</p>
+                      </div>
+                      <div className="chatOnl">
+                        <div className="onl_online"></div>
+                      </div>
                     </div>
-                    <div className="inT_12 sm1">
-                      <hr />
-                    </div>
-                    <div className="inT_13 inT_11">
-                      <p className="komp">186 см</p>
-                    </div>
+                    <p className="chat_text">Чем занимаешься?</p>
                   </div>
-                  <div className="inTexts1">
-                    <div className="inT_11">
-                      <p className="komp">Вес</p>
-                    </div>
-                    <div className="inT_12">
-                      <hr />
-                    </div>
-                    <div className="inT_13 inT_11">
-                      <p className="komp">80 кг</p>
-                    </div>
-                  </div>
-                  <div className="inTexts1">
-                    <div className="inT_11 bg">
-                      <p className="komp">Цвет глаз</p>
-                    </div>
-                    <div className="inT_12 bg1">
-                      <hr />
-                    </div>
-                    <div className="inT_13 inT_11">
-                      <p className="komp">голубые</p>
-                    </div>
-                  </div>
-                  <div className="inTexts1">
-                    <div className="inT_11 bg">
-                      <p className="komp">Цвет волос</p>
-                    </div>
-                    <div className="inT_12 bg1">
-                      <hr />
-                    </div>
-                    <div className="inT_13 inT_11">
-                      <p className="komp">светлые</p>
-                    </div>
-                  </div>
-                  <div className="inTexts1">
-                    <div className="inT_11 bg2">
-                      <p className="komp">Цель знакомства</p>
-                    </div>
-                    <div className="inT_12 bg3">
-                      <hr />
-                    </div>
-                    <div className="inT_13 inT_11 bg4">
-                      <p className="komp">пока не знаю</p>
-                    </div>
+                  <div className="Inline2">
+                    <div className="message">1</div>
                   </div>
                 </div>
-                <div className="inT1">
-                    <p className="Bosh bot">О себе</p>
-                    <p className="bigText bot1">Задача организации, в особенности же сложившаяся структура организации представляет собой интересный эксперимент проверки модели развития. 
-                    Задача организации, в особенности же постоянный количественный рост и сфера нашей активности играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач.</p>
-                    <p className="sayt">На сайте с 21.08.2021</p>
+              </div>
+              <div className="chat_human">
+                <div className="humanIn">
+                  <div className="Inline">
+                    <img src={Ellipse62} alt="error" />
+                  </div>
+                  <div className="Inline1">
+                    <div className="online">
+                      <div className="chatName_online">
+                        <p className="chat_name">Вика</p>
+                      </div>
+                      <div className="chatOnl">
+                        <div className="onl_online"></div>
+                      </div>
+                    </div>
+                    <p className="chat_text">Хорошо. До встречи</p>
+                  </div>
+                  <div className="Inline2">
+                    <div className="message">1</div>
+                  </div>
+                </div>
+              </div>
+              <div className="chat_human">
+                <div className="humanIn">
+                  <div className="Inline">
+                    <img src={Ellipse63} alt="error" />
+                  </div>
+                  <div className="Inline1">
+                    <div className="online">
+                      <div className="chatName_online">
+                        <p className="chat_name">Анастасия</p>
+                      </div>
+                      <div className="chatOnl">
+                        <div className="onl_online"></div>
+                      </div>
+                    </div>
+                    <p className="chat_text">Привет! Как дела?</p>
+                  </div>
+                  <div className="Inline2">
+                    <div className="message">1</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="Ellipse3 el4">
-            <i class="fa-solid fa-chevron-right"></i>
+          <div className="Chat2">
+            <div className="chat2_in">
+                <div className="title">
+                    <div className="title_user">Алёна 22</div>
+                    <div className="onl3">
+                        <div className="onl_online1"></div>
+                    </div>
+                </div>
+                <div className="Messages">
+                        <div className="message1">
+                            <div className="foto">
+                                <img src={Ellipse61} alt="" className="small"/>
+                            </div>
+                            <div className="mess">
+                                <div className="meesage_frame">
+                                    <p className="hello">Привет</p>
+                                    <p className="hello">Как дела?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="message1 top right">
+                        <div className="mess right">
+                                <div className="meesage_frame blue">
+                                    <p className="hello">Хорошо</p>
+                                    <p className="hello">А у тебя?</p>
+                                </div>
+                            </div>
+                            <div className="foto right">
+                                <img src={Ellipse9} alt="" className="small"/>
+                            </div>
+                        </div>
+                        <div className="message1 top">
+                        <div className="foto">
+                                <img src={Ellipse61} alt="" className="small"/>
+                            </div>
+                            <div className="mess">
+                                <div className="meesage_frame">
+                                    <p className="hello left">У меня тоже все хорошо. Чем занимаешся?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="message1 top right">
+                        <div className="mess right">
+                                <div className="meesage_frame blue auto">
+                                    <p className="hello">Да я просто отдыхаю</p>
+                                    <p className="hello">Только что с спортзала пришёл</p>
+                                    <p className="hello">Сейчас буду ужинать</p>
+                                </div>
+                            </div>
+                            <div className="foto right">
+                                <img src={Ellipse9} alt="" className="small"/>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div className="input_chek">
+                <div className="inp_chek">
+                    <input type="text" className="inp_message" placeholder="Написать сообщение..."/>
+                    <img src={Send} alt="" />
+                </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="Foott">
-      <footer className="footer foot1 foot5">
-                <div className="links1 link100">
-                    <a href="" className="about">О нас</a>
-                    <a href="" className="about">Поддержка</a>
-                    <a href="" className="about">Советы</a>
-                    <a href="" className="about">Контакты</a>
-                    <a href="" className="about">Правила оплаты</a>
-                </div>
-                <div className="links2 link100">
-                    <a href="" className="about">Политика обработки персональных данных</a>
-                </div>
-                <div className="links3 link100">
-                    <p className="link3_lang">RU</p>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div className="links4 link100">
-                    <p className="link4_text">© Company 2021</p>
-                </div>
-            </footer>
-            </div>
     </div>
   );
 }

@@ -1,0 +1,666 @@
+.BOX6{
+    width: 100%;
+    height: auto;
+    background-color: #260332;
+}
+
+body{
+    background-color: #260332;
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navIn{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav_text2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.accordion1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-chevron-down{
+    color: white;
+    font-size: 12px;
+}
+
+
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: #2D1436;
+    display: flex;
+    justify-content: center;
+}
+
+.nav2{
+    width: 70%;
+    display: flex;
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.location{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.group1{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.bird_text{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: white;
+}
+
+.menuA{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    transition: .3s ease-out;
+}
+
+.aBox{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-out;
+}
+
+.menuA:hover{
+    color: #FE6703;
+}
+
+.aBox:hover{
+    border-bottom: 4px solid #FE6703;
+}
+
+.i1{
+    color: #925FA4;
+    
+}
+
+.location_text{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.restangle14{
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    background-color: #FF6A00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+.Main_tarif{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Main_tarif2{
+    width: 66%;
+}
+
+.tarif_title{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tarif_t{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    color: white;
+}
+
+.tarif_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tarifs_card{
+    width: 33%;
+    height: 326px;
+    display: flex;
+    justify-content: center;
+    transition: .3s ease-out;
+    border-radius: 50px;
+    background-color: #1C0A22;
+}
+
+.tarifIn{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarif_text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.data11{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+
+.cash{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: white;
+    margin-top: 5px;
+}
+
+.buy{
+    width: 180px;
+    height: 50px;
+    border-radius: 500px;
+    border: none;
+    background-color: #3B2143;
+    margin-top: 20px;
+    transition: .3s ease-out;
+}
+
+.btn_tarif_t{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #694B73;
+    transition: .3s ease-out;
+}
+
+.tarifs_card:hover{
+    border: 1px solid #FF6A00;
+}
+
+.tarifs_card:hover .buy{
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+}
+
+.tarifs_card:hover .btn_tarif_t{
+    color: white;
+}
+
+.non{
+    text-decoration: none;
+}
+
+.FOOOOT{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 240px;
+}
+
+.foot_tarif{
+    width: 66%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .birdLogo{
+        width: 40px;
+        height: 40px;
+    }
+    .bird_text{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+    .img_t{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 60px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+
+    .tarif_main{
+        display: block;
+    }
+
+    .tarifs_card{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .FOOOOT{
+        margin-block-start: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .birdLogo{
+        width: 40px;
+        height: 40px;
+    }
+    .bird_text{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+    .img_t{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .nav2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 90px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+
+    .tarif_main{
+        display: block;
+    }
+
+    .tarifs_card{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .FOOOOT{
+        margin-block-start: 50px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .birdLogo{
+        width: 40px;
+        height: 40px;
+    }
+    .bird_text{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .location{
+        display: none;
+    }
+    .img_t{
+        display: flex;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav2{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+
+    .tarif_main{
+        display: flex;
+    }
+
+    .tarifs_card{
+        width: 33%;
+        margin-top: 20px;
+    }
+    .FOOOOT{
+        margin-block-start: 150px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .birdLogo{
+        width: 60px;
+        height: 60px;
+    }
+    .bird_text{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .location{
+        display: flex;
+    }
+    .img_t{
+        display: none;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav2{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 90px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+
+    .tarif_main{
+        display: flex;
+    }
+
+    .tarifs_card{
+        width: 33%;
+        margin-top: 20px;
+    }
+    .FOOOOT{
+        margin-block-start: 150px;
+    }
+}
+
+
+@media screen and (min-width: 1414px) {
+    .birdLogo{
+        width: 60px;
+        height: 60px;
+    }
+    .bird_text{
+        display: flex;
+    }
+    .menu{
+        display: flex;
+    }
+    .location{
+        display: flex;
+    }
+    .img_t{
+        display: flex;
+    }
+    .nav{
+        display: flex;
+    }
+    .nav2{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .group1{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .i1{
+        font-size: 25px;
+    }
+    .logo{
+        width: 20%;
+    }
+    .restangle14{
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    .user{
+        width: 20%;
+    }
+    .menu_Group{
+        width: 20%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{
+        color: #FF6A00;
+        font-size: 26px;
+    }
+
+    .tarif_main{
+        display: flex;
+    }
+
+    .tarifs_card{
+        width: 33%;
+        margin-top: 20px;
+    }
+    .FOOOOT{
+        margin-block-start: 150px;
+    }
+}

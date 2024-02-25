@@ -5,16 +5,20 @@ import LogIn from './Pages/LogIn';
 import Forgot_password from './Pages/Forgot_password';
 import Profil from './Pages/Profil';
 import Chat from './Pages/Chat';
+import Tarifs from './Pages/Tarifs';
+import Favorite from './Pages/Favorite';
 
 function App() {
   return (
     <div className="App">
-      <Main/>
+      {/* <Main/> */}
       {/* <Registration/> */}
       {/* <LogIn/> */}
       {/* <Forgot_password/> */}
       {/* <Profil/> */}
       {/* <Chat/> */}
+      {/* <Tarifs/> */}
+      <Favorite/>
     </div>
   );
 }

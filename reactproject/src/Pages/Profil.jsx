@@ -11,6 +11,11 @@ import Def0 from "../Images/0Default.png";
 import "../CSS/Profil.css";
 
 function Profil() {
+  function Chat() {
+    return(
+      <div className="Black">fjsfjdd</div>
+    )
+  }
   return (
     <div className="BOX">
       <div className="nav">
@@ -54,12 +59,11 @@ function Profil() {
             <p className="location_text">Россия</p>
             <i class="fa-solid fa-chevron-down i1"></i>
           </div>
-
           <div className="group1">
             <div className="icons">
               <i class="fa-solid fa-magnifying-glass i1"></i>
               <i class="fa-solid fa-bell i1"></i>
-              <div className="restangle14">123</div>
+              <div className="restangle14">123</div>                
             </div>
           </div>
 
@@ -111,7 +115,7 @@ function Profil() {
               </div>
               <div className="But">
                 <button className="card_button c_b">
-                  <p className="btn_t">Поприветствовать</p>
+                  <a href=""><p className="btn_t">Поприветствовать</p></a>
                   <img src={Def0} alt="" />
                 </button>
               </div>
