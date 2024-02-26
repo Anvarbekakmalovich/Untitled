@@ -7,6 +7,8 @@ import Profil from './Pages/Profil';
 import Chat from './Pages/Chat';
 import Tarifs from './Pages/Tarifs';
 import Favorite from './Pages/Favorite';
+import PersonalAccount from './Pages/PersonalAccount';
+import Number from './Pages/number404';
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       {/* <Profil/> */}
       {/* <Chat/> */}
       {/* <Tarifs/> */}
-      <Favorite/>
+      {/* <Favorite/> */}
+      {/* <PersonalAccount/> */}
+      <Number/>
     </div>
   );
 }

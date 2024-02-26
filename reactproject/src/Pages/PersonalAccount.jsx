@@ -4,9 +4,9 @@ import loveBirds from "../Images/love-birds 1.png";
 import Ellipse3 from "../Images/Ellipse 3.png";
 import russia from "../Images/russia 1.png";
 import Def0 from "../Images/0Default.png";
-import "../CSS/Favorite.css";
+import "../CSS/PersonalAccount.css";
 
-function Favorite() {
+function PersonalAccount() {
   return (
     <div className="BOX6">
       <div className="nav">
@@ -101,62 +101,22 @@ function Favorite() {
         </div>
         <div className="Main_tarif2">
           <div className="tarif_title">
-            <p className="tarif_t">Избранное</p>
+            <p className="tarif_t">Личный счет</p>
           </div>
           <div className="tarif_main">
-            <div className="topCard">
-              <div className="card_texts">
-                <div className="text1">
-                  <p className="name">Виктор 22</p>
+            <div className="tarif_main2">
+                <div className="text_acc">
+                    <p className="acc_text">Статус подписки</p>
+                    <p className="acc_text">На месяц, до 20.11.2021</p>
                 </div>
-                <div className="text2">
-                  <div className="Ellipse4"></div>
+                <hr className="hr_account" />
+                <div className="text_acc">
+                    <p className="acc_text">Текущий баланс</p>
+                    <p className="acc_text">2548 руб</p>
                 </div>
-              </div>
-              <div className="card_texts2">
-                <img src={russia} alt="" />
-                <p className="rus_text">Россия</p>
-              </div>
-              <button className="card_button">
-                <p className="btn_t">Поприветствовать</p>
-                <img src={Def0} alt="" />
-              </button>
-            </div>
-            <div className="topCard card2">
-              <div className="card_texts">
-                <div className="text1">
-                  <p className="name">Марина 19</p>
+                <div className="btn_acc">
+                <button className="account_btn">Пополнить</button>
                 </div>
-                <div className="text2">
-                  <div className="Ellipse4"></div>
-                </div>
-              </div>
-              <div className="card_texts2">
-                <img src={russia} alt="" />
-                <p className="rus_text">Россия</p>
-              </div>
-              <button className="card_button">
-                <p className="btn_t">Поприветствовать</p>
-                <img src={Def0} alt="" />
-              </button>
-            </div>
-            <div className="topCard card3">
-              <div className="card_texts">
-                <div className="text1">
-                  <p className="name">Алексей 34</p>
-                </div>
-                <div className="text2">
-                  <div className="Ellipse4"></div>
-                </div>
-              </div>
-              <div className="card_texts2">
-                <img src={russia} alt="" />
-                <p className="rus_text">Россия</p>
-              </div>
-              <button className="card_button">
-                <p className="btn_t">Поприветствовать</p>
-                <img src={Def0} alt="" />
-              </button>
             </div>
           </div>
         </div>
@@ -198,4 +158,4 @@ function Favorite() {
   );
 }
 
-export default Favorite;
+export default PersonalAccount;

@@ -290,117 +290,30 @@ body{
     align-items: center;
     gap: 10px;
     margin-top: 20px;
+    border: 2px solid red;
 }
 
-.topCard{
-    width: 280px;
-    height: 350px;
-    border-radius: 30px;
-    background-color: white;
-    background-image: url("../Images/photo\ \(14\).png");
+.tarif_main2{
+    width: 50%;
+    border: 2px solid blue;
+}
+
+.text_acc{
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid yellow;
 }
 
-.card2{
-    background-image: url("../Images/photo\ \(15\).png");
-    display: flex;
-    flex-direction: column;
-}
-
-.card3{
-    background-image: url("../Images/photo\ \(16\).png");
-}
-
-.card_texts{
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
-    margin-inline-start: 20px;
-}
-
-.name{
+.acc_text{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;  
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.text1{
-    width: 78%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.text2{
-    width: 22%;
-    display: flex;
-    justify-content: flex-end;
-    transition: .3s ease-out;
-}
-
-.Ellipse4{
-    width: 10px;
-    height: 10px;
-    background-color: #33E159;
-    border-radius: 50%;
-    display: none;
-}
-
-
-.text2:hover .Ellipse4{
-    display: flex;
-}
-
-
-.card_texts2{
-    display: flex;
-    align-items: flex-start;
-    justify-self: start;
-    gap: 10px;
-    margin-inline-start: 20px;
-}
-
-.rus_text{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;  
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    color: white;
-}
-
-.card_button{
-    width: 100%;
-    height: 50px;
-    border-radius: 40px;
-    background: linear-gradient(to right,#EE0979, #FF6A00);
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.card_button:hover{
-    background: transparent;
-}
-
-.btn_t{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;  
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 21px;
-    color: white;
-    margin: 0;
-    padding: 0;
 }
 
 .FOOOOT{
@@ -408,6 +321,37 @@ body{
     display: flex;
     justify-content: center;
     margin-block-start: 240px;
+}
+
+.hr_account{
+    margin-block-start: 20px;
+    margin-block-end: 30px;
+}
+
+.account_btn{
+    width: 250px;
+    height: 60px;
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+    border-radius: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    border: none;
+}
+
+.account_btn:hover{
+    background: transparent;
+    border: 1px solid #FE6703;
+}
+
+.btn_acc{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
 }
 
 .foot_tarif{

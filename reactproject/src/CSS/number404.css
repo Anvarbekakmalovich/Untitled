@@ -1,7 +1,118 @@
 .BOX6{
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: #260332;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back{
+    position: absolute;
+    width: 73%;
+    height: 100vh;
+    background-image: url("../Images//Vector\ \(6\).png");
+}
+.back1{
+    position: absolute;
+    width: 59%;
+    height: 100vh;
+    background-image: url("../Images//Vector\ \(7\).png");
+}
+.back2{
+    position: absolute;
+    width: 52.6%;
+    height: 100vh;
+    background-image: url("../Images//Vector\ \(8\).png");
+}
+.back3{
+    position: absolute;
+    width: 49%;
+    height: 90vh;
+    margin-top: 30px;
+    background-image: url("../Images//Vector\ \(9\).png");
+}
+.back4{
+    position: absolute;
+    width: 41.7%;
+    height: 91vh;
+    margin-top: 80px;
+    background-image: url("../Images//Vector\ \(10\).png");
+}
+
+.back5{
+    position: absolute;
+    width: 33.4%;
+    height: 76.5vh;
+    margin-top: 210px;
+    background-image: url("../Images//Vector\ \(11\).png");
+}
+
+.num404{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.num4{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 300px;
+    font-weight: 500;
+    line-height: 450px;
+    color: white;
+}
+
+.text4{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin-top: -70px;
+}
+
+.btn404{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.button404{
+    width: 230px;
+    height: 60px;
+    background: transparent;
+    border-radius: 500px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text444{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+
+.i44{
+    color: white;
+    font-size: 14px;
+}
+
+.t444{
+    text-decoration: none;
 }
 
 body{
@@ -191,223 +302,8 @@ body{
     margin-left: 60px;
 }
 
-.Main_tarif{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.menuFavorite{
-    width: 16%;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.navigation{
-    width: 280px;
-    height: 246px;
-    border-radius: 30px;
-    background-color: #1C0A22;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.text{
-    display: flex;
-    gap: 20px;
-    transition: .3s, ease-out;
-}
-
-.text4{
-    margin-top: 20px;
-}
-
-.text:hover{
-    border-left: 2px solid #EE0979;
-}
-
-.text:hover .i5{
-    color: #FF6A00;
-}
-
-.i5{
-    font-size: 24px;
-    color: #42204E;
-}
-
-.bot{
-    margin-block-start: 40px;
-}
-
-.icon_text{
-    width: 100%;
-    margin-inline-start: 30px;
-    display: flex;
-    gap: 20px;
-}
-
-
-.profil{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;  
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: white;
-    text-decoration: none;
-}
-
-.Main_tarif2{
-    width: 57%;
-}
-
-.tarif_title{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.tarif_t{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 42px;
-    color: white;
-}
-
-.tarif_main{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.topCard{
-    width: 280px;
-    height: 350px;
-    border-radius: 30px;
-    background-color: white;
-    background-image: url("../Images/photo\ \(14\).png");
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-.card2{
-    background-image: url("../Images/photo\ \(15\).png");
-    display: flex;
-    flex-direction: column;
-}
-
-.card3{
-    background-image: url("../Images/photo\ \(16\).png");
-}
-
-.card_texts{
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
-    margin-inline-start: 20px;
-}
-
-.name{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;  
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.text1{
-    width: 78%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.text2{
-    width: 22%;
-    display: flex;
-    justify-content: flex-end;
-    transition: .3s ease-out;
-}
-
-.Ellipse4{
-    width: 10px;
-    height: 10px;
-    background-color: #33E159;
-    border-radius: 50%;
-    display: none;
-}
-
-
-.text2:hover .Ellipse4{
-    display: flex;
-}
-
-
-.card_texts2{
-    display: flex;
-    align-items: flex-start;
-    justify-self: start;
-    gap: 10px;
-    margin-inline-start: 20px;
-}
-
-.rus_text{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;  
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    color: white;
-}
-
-.card_button{
-    width: 100%;
-    height: 50px;
-    border-radius: 40px;
-    background: linear-gradient(to right,#EE0979, #FF6A00);
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.card_button:hover{
-    background: transparent;
-}
-
-.btn_t{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;  
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 21px;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.FOOOOT{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-block-start: 240px;
+.foot404{
+    margin-block-start: 650px;
 }
 
 .foot_tarif{
@@ -740,14 +636,6 @@ body{
         font-size: 26px;
     }
 
-    .tarif_main{
-        display: flex;
-    }
-
-    .tarifs_card{
-        width: 33%;
-        margin-top: 20px;
-    }
     .FOOOOT{
         margin-block-start: 150px;
     }
